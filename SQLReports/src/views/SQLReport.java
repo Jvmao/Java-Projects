@@ -64,9 +64,9 @@ public class SQLReport extends JFrame {
 	private ClientDB cdb;
 	private Connection conn;
 	private boolean connected = false;
-	private String server = "jdbc:sqlserver://JOSEVICENTE1;databaseName=SQLReport";
-	private String user = "sa";
-    private String pass = "-a123456";
+	private String server = "jdbc:sqlserver://yourservername;databaseName=yourDBname";
+	private String user = "user";
+    private String pass = "pass";
     
     //Variables to increment code in JTable//
   	private static int code = 1000;
@@ -554,15 +554,15 @@ public class SQLReport extends JFrame {
 	//Method to get Code
 	public void getCode() {
 		String ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder str = new StringBuilder();
-        Random rnd = new Random();
-        while (str.length() < 6) { // length of the random string.
-            int index = (int) (rnd.nextFloat() * ALPHA.length());
-            str.append(ALPHA.charAt(index));
-        }
-        String codeUser = str.toString();
-        txCode.setText(codeUser);
-        System.out.println("Code Generated --> "+codeUser);
+		StringBuilder str = new StringBuilder();
+		Random rnd = new Random();
+		while (str.length() < 6) { // length of the random string.
+		    int index = (int) (rnd.nextFloat() * ALPHA.length());
+		    str.append(ALPHA.charAt(index));
+		}
+		String codeUser = str.toString();
+		txCode.setText(codeUser);
+		System.out.println("Code Generated --> "+codeUser);
 	}
 	
 	//Method to Generate Report in PDF format from Application
@@ -584,12 +584,12 @@ public class SQLReport extends JFrame {
 				//Showing the report
 				JasperViewer jasperViewer = new JasperViewer(jasperPrint, false);
 				jasperViewer.setDefaultCloseOperation(JasperViewer.DISPOSE_ON_CLOSE);
-		        jasperViewer.setTitle("INVOICE REPORT");
-		        jasperViewer.setZoomRatio((float) 1.25);
-		        jasperViewer.setExtendedState(JasperViewer.MAXIMIZED_BOTH);
-		        jasperViewer.requestFocus();
-		        jasperViewer.setVisible(true);
-		        System.out.println("Report Generated Correctly!!");	
+				jasperViewer.setTitle("INVOICE REPORT");
+				jasperViewer.setZoomRatio((float) 1.25);
+				jasperViewer.setExtendedState(JasperViewer.MAXIMIZED_BOTH);
+				jasperViewer.requestFocus();
+				jasperViewer.setVisible(true);
+				System.out.println("Report Generated Correctly!!");	
 			}
 			
 			}catch (Exception e){
