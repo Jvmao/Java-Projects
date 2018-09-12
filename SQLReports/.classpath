@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/sqlServer-connector-java/mssql-jdbc-7.0.0.jre8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/jasperreports-6.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/itext-2.1.7.js6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
