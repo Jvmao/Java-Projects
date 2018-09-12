@@ -8,9 +8,9 @@ import java.sql.SQLException;
 public class SQLServerConnection {
 	private static Connection conn = null;
 	public static SQLServerConnection SQLConn = null;
-	private String server = "jdbc:sqlserver://JOSEVICENTE1;databaseName=SQLReport";
-	private String user = "sa";
-    private String pass = "-a123456";
+	private String server = "jdbc:sqlserver://yoursername;databaseName=yourdatabasename";
+	private String user = "user";
+    private String pass = "pass";
 	
     public boolean SQLServerDB() {
 		
