@@ -7,7 +7,7 @@ import views.SQLReport;
 public class MainSQLReports extends JFrame{
 	private static final long serialVersionUID = 1L;
 
-	//Constructor
+	//Constructor Main Class
 	public MainSQLReports() {}
 	
 	public static void main(String[] args) {
