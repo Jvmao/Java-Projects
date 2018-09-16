@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/commons-digester-2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/itext-2.1.7.js6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoseVicente/Documents/DAM/Programación/jasperreports-connector-java/jdt-compiler-3.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
