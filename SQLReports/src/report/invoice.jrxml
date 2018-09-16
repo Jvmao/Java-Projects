@@ -63,7 +63,7 @@
 		<band height="50" splitType="Stretch">
 			<image scaleImage="FillFrame">
 				<reportElement key="" x="-20" y="-20" width="595" height="70" uuid="0498620d-3be0-4ac8-b7bd-f1b101a9ffb5"/>
-				<imageExpression><![CDATA["C:/Users/JoseVicente/Documents/ProjectsJava/SQLReports/src/imgs/blue.jpg"]]></imageExpression>
+				<imageExpression><![CDATA["imgs/blue.jpg"]]></imageExpression>
 			</image>
 		</band>
 	</title>
@@ -202,7 +202,7 @@
 					<subreportParameterExpression><![CDATA[$F{id_code}]]></subreportParameterExpression>
 				</subreportParameter>
 				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
-				<subreportExpression><![CDATA["C:/Users/JoseVicente/Documents/ProjectsJava/SQLReports/src/report/subreport.jasper"]]></subreportExpression>
+				<subreportExpression><![CDATA["report/subreport.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 		<band height="122">
