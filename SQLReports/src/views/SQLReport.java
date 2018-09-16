@@ -575,7 +575,7 @@ public class SQLReport extends JFrame {
 			jasperReport = JasperCompileManager.compileReport(jasperStream);
 			Map<String, Object> params = new HashMap<String,Object>();
 			params.put("id_code", txCode.getText().toString());
-			params.put("SUBREPORT_DIR", new File("C:/Users/JoseVicente/Documents/ProjectsJava/SQLReports/src/report/subreport.jasper").getAbsolutePath() + File.separator);
+			//params.put("SUBREPORT_DIR", new File("report/subreport.jasper").getAbsolutePath() + File.separator);
 			JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, params, conn);
 			JasperExportManager.exportReportToPdfFile(jasperPrint, pdfName);
 			
