@@ -6,14 +6,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class ClientDB {	
-	//Connection BBDD//
+	//Connection DB//
 	private static Connection conn = null;
 	//Object
 	private  Statement order,order2,order3,order4 = null;
 	private int id;
 	private String queryAddUser,queryAddProduct,queryAddInvoice,queryDeleteProduct;
 	
-	//Para Recibir la Conexión//
+	//Get Connection//
 	public  ClientDB(Connection c){
 		this.conn=c; 
 	}
